@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.sql.DataSource;
 
-@SpringBootApplication
 @RestController
 @RequestMapping("/hello")
 public class HelloController {
