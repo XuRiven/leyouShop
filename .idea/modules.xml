@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/leyouShop.iml" filepath="$PROJECT_DIR$/.idea/leyouShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuriven-eureka/xuriven-eureka.iml" filepath="$PROJECT_DIR$/xuriven-eureka/xuriven-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuriven-service-consumer/xuriven-service-consumer.iml" filepath="$PROJECT_DIR$/xuriven-service-consumer/xuriven-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuriven-service-provider/xuriven-service-provider.iml" filepath="$PROJECT_DIR$/xuriven-service-provider/xuriven-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xuriven-springboot/xuriven-springboot.iml" filepath="$PROJECT_DIR$/xuriven-springboot/xuriven-springboot.iml" />
+    </modules>
+  </component>
+</project>

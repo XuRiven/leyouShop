@@ -54,8 +54,8 @@ public class JdbcConfiguration {
 
 
     /**
-      * 3、@Bean方法注入参数
-      * @return
+     * 3、@Bean方法注入参数
+     * @return
      */
     /*@Bean
     public DataSource dataSource(JdbcProperties jdbcProperties) {
@@ -77,9 +77,9 @@ public class JdbcConfiguration {
      */
     @Bean
     @ConfigurationProperties(prefix = "jdbc")
-    public DataSource dataSource(){
-         DruidDataSource dataSource = new DruidDataSource();
-         return dataSource;
+    public DataSource dataSource() {
+        DruidDataSource dataSource = new DruidDataSource();
+        return dataSource;
     }
 
 
