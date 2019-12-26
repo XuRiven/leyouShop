@@ -4,12 +4,15 @@ spring:
   application:
     name: xuriven-zuul #指定服务名
 
+
+
+#service-provider的配置可以简化为一条：
 zuul:
   routes:
-    service-provider: # 这里是路由id，一般写微服务名称
-      path: /service-provider/** # 这里是映射路径
-     # url: http://127.0.0.1:8081 # 映射路径对应的实际url地址
-      serviceId: service-provider #通过eureka获取服务的地址信息
+    service-provider: /service-provider/** # 这里是映射路径
+#      path: /service-provider/** # 这里是映射路径
+#     # url: http://127.0.0.1:8081 # 映射路径对应的实际url地址
+#      serviceId: service-provider #通过eureka获取服务的地址信息
 
 eureka:
   client:
