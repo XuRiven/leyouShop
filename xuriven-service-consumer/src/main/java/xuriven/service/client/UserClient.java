@@ -7,6 +7,6 @@ import xuriven.service.pojo.User;
 
 @FeignClient(value = "service-provider",fallback = UserClientFallback.class)
 public interface UserClient {
-    @GetMapping("user/{id}")
+    @GetMapping("user")
     public User queryUserById(@RequestParam("id") Long id);
 }
