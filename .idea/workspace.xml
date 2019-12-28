@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bba75b9-7a43-49a9-9d44-78f56520bcbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xuriven-eureka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-eureka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-eureka/src/main/java/xuriven/eureka/XurivenEurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-eureka/src/test/java/xuriven/eureka/XurivenEurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-consumer/src/main/java/xuriven/service/XurivenServiceConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-consumer/src/main/java/xuriven/service/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-consumer/src/main/java/xuriven/service/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-consumer/src/test/java/xuriven/service/XurivenServiceConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/src/main/java/xuriven/service/XurivenServiceProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/src/main/java/xuriven/service/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/src/main/java/xuriven/service/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/src/main/java/xuriven/service/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/src/main/java/xuriven/service/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuriven-service-provider/src/test/java/xuriven/service/XurivenServiceProviderApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuriven-springboot/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-springboot/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuriven-springboot/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-springboot/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuriven-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuriven-springboot/src/main/java/xuriven/springboot/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-springboot/src/main/java/xuriven/springboot/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuriven-springboot/src/main/java/xuriven/springboot/configuration/JdbcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-springboot/src/main/java/xuriven/springboot/configuration/JdbcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuriven-springboot/src/main/java/xuriven/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-springboot/src/main/java/xuriven/springboot/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuriven-springboot/src/main/java/xuriven/springboot/controller/HelloController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-springboot/src/main/java/xuriven/springboot/controller/HelloController2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuriven-springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuriven-zuul/src/main/java/xuriven/zuul/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuriven-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuriven-zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +54,7 @@
   </component>
   <component name="ProjectId" id="1VHjOogyHZnJEqrzjSyWOlfKooQ" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -173,13 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xuriven-springboot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xuriven.springboot.TestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="XurivenEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="xuriven-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="xuriven.eureka.XurivenEurekaApplication" />
@@ -208,11 +172,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XurivenZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xuriven-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xuriven.zuul.XurivenZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Spring Boot.XurivenServiceConsumerApplication" />
       <item itemvalue="Spring Boot.XurivenEurekaApplication" />
       <item itemvalue="Spring Boot.XurivenServiceProviderApplication " />
+      <item itemvalue="Spring Boot.XurivenZuulApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -228,12 +199,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c8917678" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@44910c95" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c8917678" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@26b2a56f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@44910c95" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d5a6fd13" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -271,6 +242,8 @@
       <workItem from="1576923082698" duration="1806000" />
       <workItem from="1576929449713" duration="1036000" />
       <workItem from="1576937231701" duration="7319000" />
+      <workItem from="1577497524895" duration="293000" />
+      <workItem from="1577497829542" duration="5306000" />
     </task>
     <servers />
   </component>

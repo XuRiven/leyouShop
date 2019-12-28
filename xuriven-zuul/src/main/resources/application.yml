@@ -10,6 +10,7 @@ spring:
 zuul:
   routes:
     service-provider: /service-provider/** # 这里是映射路径
+  prefix: /api # 添加路由前缀
 #      path: /service-provider/** # 这里是映射路径
 #     # url: http://127.0.0.1:8081 # 映射路径对应的实际url地址
 #      serviceId: service-provider #通过eureka获取服务的地址信息
