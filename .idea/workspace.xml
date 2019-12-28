@@ -210,9 +210,9 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="Spring Boot.XurivenServiceProviderApplication " />
       <item itemvalue="Spring Boot.XurivenServiceConsumerApplication" />
       <item itemvalue="Spring Boot.XurivenEurekaApplication" />
+      <item itemvalue="Spring Boot.XurivenServiceProviderApplication " />
     </list>
     <recent_temporary>
       <list>
@@ -228,12 +228,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@98b6322" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c8917678" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@98b6322" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1bb0a217" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c8917678" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@26b2a56f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -292,6 +292,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="SpringCloud之Ribbon、Hystrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud之Ribbon、Hystrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
