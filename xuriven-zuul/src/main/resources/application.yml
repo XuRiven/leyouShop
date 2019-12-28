@@ -1,0 +1,21 @@
+server:
+  port: 10010 #服务端口
+spring:
+  application:
+    name: xuriven-zuul #指定服务名
+
+
+
+#service-provider的配置可以简化为一条：
+zuul:
+  routes:
+    service-provider: /service-provider/** # 这里是映射路径
+#      path: /service-provider/** # 这里是映射路径
+#     # url: http://127.0.0.1:8081 # 映射路径对应的实际url地址
+#      serviceId: service-provider #通过eureka获取服务的地址信息
+
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5 # 获取服务列表的周期：5s
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka  #注册到eureka上

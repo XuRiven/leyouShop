@@ -2,7 +2,7 @@ server:
   port: 80
 spring:
   application:
-    name: service=consumer
+    name: service-consumer
 eureka:
   client:
     service-url:
@@ -18,3 +18,6 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 6000 # 设置hystrix的超时时间为6000ms
+feign:
+  hystrix:
+    enabled: true # 开启Feign的熔断功能

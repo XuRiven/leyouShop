@@ -13,27 +13,33 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.client.RestTemplate;
+import xuriven.service.client.UserClient;
 import xuriven.service.pojo.User;
 
 import java.util.List;
 
-@RequestMapping("/consumer")
+@RequestMapping("/consumer/user")
 @Controller
-@DefaultProperties(defaultFallback = "fallBackMethod") //在类上指明统一的失败降级方法
+//@DefaultProperties(defaultFallback = "fallBackMethod") //在类上指明统一的失败降级方法
 public class UserController {
-    @Autowired
-    private RestTemplate restTemplate;
+//    @Autowired
+//    private RestTemplate restTemplate;
 
     //@Autowired
 //    private DiscoveryClient discoveryClient;
-    @GetMapping("user")
+
+    @Autowired
+    private UserClient userClient;
+
+    @GetMapping
     @ResponseBody
-    @HystrixCommand//标记该方法需要熔断
-    public String queryUserById(@RequestParam("id") Long id) {
+//    @HystrixCommand//标记该方法需要熔断
+    public User queryUserById(@RequestParam("id") Long id) {
 //        List<ServiceInstance> instances = discoveryClient.getInstances("service-provider");
 //        ServiceInstance serviceInstance = instances.get(0);
-        String baseUrl = "http://service-provider/user/" + id;
-        return this.restTemplate.getForObject(baseUrl, String.class);
+//        String baseUrl = "http://service-provider/user/" + id;
+//        return this.restTemplate.getForObject(baseUrl, String.class);
+        return userClient.queryUserById(id);
     }
 
     /**
@@ -48,8 +54,8 @@ public class UserController {
      *                   此时会释放部分请求通过，若这些请求都是健康的，则会完全关闭断路器，否则继续保持打开，再次进行休眠计时
      * @return
      */
-    public String fallBackMethod() {
-        return "服务器正忙，请稍后再试！";
-    }
+//    public String fallBackMethod() {
+//        return "服务器正忙，请稍后再试！";
+//    }
 
 }

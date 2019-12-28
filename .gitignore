@@ -1,3 +1,14 @@
+<<<<<<< HEAD
 
 .idea/workspace.xml
 *.xml
+=======
+.idea/workspace.xml
+.idea
+xuriven-zuul/.mvn/wrapper/maven-wrapper.jar
+xuriven-zuul/.mvn/wrapper/maven-wrapper.properties
+xuriven-zuul/.mvn/wrapper/MavenWrapperDownloader.java
+xuriven-zuul/.mvn/wrapper/maven-wrapper.jar
+*.jar
+xuriven-zuul/.mvn/wrapper/maven-wrapper.jar
+>>>>>>> 1ed365782c88255d312105d0ad409246d5eed0b6
