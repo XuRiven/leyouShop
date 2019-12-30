@@ -4,7 +4,7 @@
 *.xml
 =======
 .idea/workspace.xml
-.idea
+.idea/
 xuriven-zuul/.mvn/wrapper/maven-wrapper.jar
 xuriven-zuul/.mvn/wrapper/maven-wrapper.properties
 xuriven-zuul/.mvn/wrapper/MavenWrapperDownloader.java
